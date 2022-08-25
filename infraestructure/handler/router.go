@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"utils/infraestructure/handler/ip"
-	"utils/model"
+	"github.com/CarosDrean/utils/infraestructure/handler/ip"
+	"github.com/CarosDrean/utils/model"
 )
 
 func InitRoutes(specification model.RouterSpecification) {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"utils/model"
+	"github.com/CarosDrean/utils/model"
 )
 
 func newConfiguration() (model.Configuration, error) {

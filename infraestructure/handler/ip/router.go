@@ -3,7 +3,7 @@ package ip
 import (
 	"github.com/labstack/echo/v4"
 
-	"utils/model"
+	"github.com/CarosDrean/utils/model"
 )
 
 func NewRouter(specification model.RouterSpecification) {

@@ -1,4 +1,4 @@
-module utils
+module github.com/CarosDrean/utils
 
 go 1.18
 

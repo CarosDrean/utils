@@ -3,8 +3,8 @@ package bootstrap
 import (
 	"fmt"
 
-	"utils/infraestructure/handler"
-	"utils/model"
+	"github.com/CarosDrean/utils/infraestructure/handler"
+	"github.com/CarosDrean/utils/model"
 )
 
 func Run() error {

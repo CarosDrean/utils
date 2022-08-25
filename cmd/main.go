@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"utils/cmd/bootstrap"
+	"github.com/CarosDrean/utils/cmd/bootstrap"
 )
 
 func main() {

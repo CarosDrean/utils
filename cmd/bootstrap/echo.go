@@ -4,7 +4,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	"utils/model"
+	"github.com/CarosDrean/utils/model"
 )
 
 func newEcho(config model.Configuration) *echo.Echo {

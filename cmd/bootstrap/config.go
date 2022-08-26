@@ -14,7 +14,7 @@ func newConfiguration() (model.Configuration, error) {
 	// we ignore the error because it can take the system environments
 	_ = godotenv.Load()
 
-	portHttp, err := strconv.Atoi(os.Getenv("PORT_HTTP"))
+	portHttp, err := strconv.Atoi(os.Getenv("PORT"))
 	if err != nil {
 		return model.Configuration{}, err
 	}
